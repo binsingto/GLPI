@@ -1,0 +1,48 @@
+{
+  "system_email": "noreply-itops@age.co.th",
+  "recipients": [
+    {
+      "name": "IT Central Support Team",
+      "email": "it@age.co.th",
+      "role": "Team Mailbox",
+      "type": "distribution_list",
+      "notify_daily": true,
+      "notify_escalation": true,
+      "notify_checklist": true
+    },
+    {
+      "name": "Sarawut Su (Chief Information / IT Executive)",
+      "email": "sarawut.su@age.co.th",
+      "role": "IT Executive / QMR ISO Lead",
+      "type": "executive",
+      "notify_daily": false,
+      "notify_escalation": true,
+      "notify_checklist": false
+    },
+    {
+      "name": "Bin Singtosi (IT Manager)",
+      "email": "bin.si@age.co.th",
+      "role": "Head of IT Support & Security",
+      "type": "approver",
+      "notify_daily": true,
+      "notify_escalation": true,
+      "notify_checklist": true
+    }
+  ],
+  "alert_rules": {
+    "capacity_overload_threshold_pct": 110,
+    "sla_breach_warning_hours": 1.0,
+    "checklist_critical_incident_immediate": true,
+    "daily_signoff_deadline": "17:30",
+    "weekly_audit_report_schedule": "Friday 16:30"
+  },
+  "smtp_settings": {
+    "host": "mail.age.co.th",
+    "port": 587,
+    "encryption": "TLS",
+    "auth_required": true,
+    "sender_name": "AGE IT Operations Audit Engine"
+  },
+  "last_updated": "2026-11-06 18:00:00",
+  "updated_by": "bin.si@age.co.th"
+}

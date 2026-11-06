@@ -1,0 +1,70 @@
+{
+  "system_info": {
+    "title_th": "ระบบตรวจสอบภาระงาน บทบาทหน้าที่ และวิเคราะห์ศักยภาพทีม IT Support",
+    "title_en": "IT Staff Tasks, Workload & Responsibility Audit System",
+    "organization": "บมจ. เอเชีย กรีน เอนเนอจี (Asia Green Energy PCL)",
+    "standards": "ISO 9001:2015 & ISO/IEC 27001:2022"
+  },
+  "tabs": {
+    "overview": {
+      "id": "overview",
+      "key": "tab_overview",
+      "nav_title_th": "ผังองค์กร & บทบาทหน้าที่ (RACI)",
+      "nav_title_en": "Org Chart & RACI Matrix",
+      "header_title": "ผังโครงสร้างบุคลากรฝ่ายไอที และเมทริกซ์ความรับผิดชอบ (RACI Matrix)",
+      "iso_code": "ISO 9001: 7.1.2 / ISO 27001: A.5.2",
+      "icon": "bi-diagram-3",
+      "description": "การจัดสรรบทบาท หน้าที่ความรับผิดชอบ และการส่งต่องานตามลำดับบังคับบัญชา 6 ระดับ"
+    },
+    "daily": {
+      "id": "daily",
+      "key": "tab_daily",
+      "nav_title_th": "งานประจำวัน & บอร์ดปฏิบัติการ",
+      "nav_title_en": "Daily Task Operations",
+      "header_title": "บันทึกการปฏิบัติงานประจำวัน และการกำกับดูแลตามมาตรฐาน ISO",
+      "iso_code": "FR-IT-ISO-021",
+      "icon": "bi-calendar-check",
+      "description": "แบบบันทึกงานประจำวัน คำนวณค่าน้ำหนักงาน (Weighted Hours) พร้อมระบบบันทึกและลงนามดิจิทัล (Sign-Off)"
+    },
+    "weekly": {
+      "id": "weekly",
+      "key": "tab_weekly",
+      "nav_title_th": "สมดุลภาระงานรายสัปดาห์ (Re-balance)",
+      "nav_title_en": "Weekly Workload & Balance",
+      "header_title": "รายงานการกระจายภาระงานรายสัปดาห์ และระบบจัดสรรงานอัจฉริยะ (Smart Re-balance)",
+      "iso_code": "FR-IT-ISO-022",
+      "icon": "bi-bar-chart-steps",
+      "description": "กราฟแท่งเปรียบเทียบภาระงานตาม Tier 1-3 และ Project พร้อมเครื่องมือจำลองการปรับสมดุลงานเพื่อป้องกันภาวะงานล้นมือ"
+    },
+    "monthly": {
+      "id": "monthly",
+      "key": "tab_monthly",
+      "nav_title_th": "หน้าปัดประเมินผล & Scorecard",
+      "nav_title_en": "Capacity Gauge & Scorecard",
+      "header_title": "หน้าปัดวัดอัตราศักยภาพรวม และแบบประเมินผลงานรายบุคคล (Staff Scorecard)",
+      "iso_code": "FR-IT-ISO-023",
+      "icon": "bi-speedometer",
+      "description": "มาตรวัด Capacity Utilization และ Scorecard วิเคราะห์ประสิทธิภาพ SLA, CSAT, Security Audit ประจำเดือน"
+    },
+    "checklist": {
+      "id": "checklist",
+      "key": "tab_checklist",
+      "nav_title_th": "ตรวจเช็ก 4 ระบบหลัก (Checklist)",
+      "nav_title_en": "Critical 4-System Checklist",
+      "header_title": "แบบตรวจเช็กความพร้อมระบบโครงสร้างพื้นฐาน 4 ระบบหลัก (Server, Backup, CCTV, Meeting Room)",
+      "iso_code": "FR-IT-ISO-024",
+      "icon": "bi-clipboard2-pulse",
+      "description": "การตรวจความสมบูรณ์และเก็บบันทึกหลักฐาน Audit Trail รองรับการตรวจสอบของ ISO 27001 ด้านความมั่นคงปลอดภัย"
+    },
+    "meeting": {
+      "id": "meeting",
+      "key": "tab_meeting",
+      "nav_title_th": "สรุปประชุม & Slide Deck",
+      "nav_title_en": "Meeting Summary & Slides",
+      "header_title": "สรุปการประชุมติดตามงานไอทีประจำสัปดาห์ และ Built-in Slide Deck เพื่อการนำเสนอ",
+      "iso_code": "ISO 9001: 9.1.3 Review",
+      "icon": "bi-easel2",
+      "description": "บันทึกข้อสรุป การติดตาม Action Items และระบบสไลด์นำเสนอผู้บริหารแบบ Interactive ฉบับสมบูรณ์"
+    }
+  }
+}
